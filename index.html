@@ -165,7 +165,7 @@
         </article>
 
         <p id="info-para" data-aos="fade-up" data-aos-delay="600">
-          Machine Learning Enthusiast with experience in computer vision. I love to work with medical images and create fun projects.
+          Computer Vision and Machine Learning researcher interested in representation learning, medical imaging, and synthetic data.
           <br>
           <br>
           I value simple content structure, clean design patterns, and
@@ -341,6 +341,92 @@
           <p class="sectionHeadingP"></p>
         </div>
         <div class="project-boxes-div">
+          <!-- <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <article class="ProjectHeading">Surgical Tools Segmentation</article>
+                <p class="ProjectDescription">
+                  This project involves a machine learning model that provides a segmentation mask of surgical tools. The model is an ensemble of six U-net models, each segmenting individual tools. The masks are then combined to obtain the final segmentation mask.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/Radhika-Amar-Desai/SurgicalToolsSegmentation.git" target="_blank" class="github-redirect"
+                    aria-label="Visit Pexelicons on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2RtNmliOTdzN3Z5cjlteHF4YW0xYXI0aGllOWNzcmJlMTFvZDVoOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lim01RkkIaE3B8Cb79/giphy.gif" target="_blank" class="cta" aria-label="Visit Comickaze live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <video width="480" height="480" controls loop autoplay>
+                  <source src="src\mp4\SurgicalToolsSegmentation.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+                <article class="ProjectHeading">Discriminative Span</article>
+                <p class="ProjectDescription">
+                  This work explores how synthetic data affects downstream model performance by analyzing the geometry of embedding spaces. Instead of relying only on traditional similarity metrics, we study whether synthetic samples preserve task-relevant structure in feature space. The project combines representation learning, statistical analysis, and large-scale experimentation across multiple computer vision models and datasets.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/Radhika-Amar-Desai/discriminative-span.git" target="_blank" class="github-redirect"
+                    aria-label="Visit Pexelicons on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://arxiv.org/abs/2605.09697" target="_blank" class="cta" aria-label="Visit Comickaze live">
+                    <span>Research Paper</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src\png\discriminative_span.png" alt="PCOS project">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+                <article class="ProjectHeading">PCOS Detection</article>
+                <p class="ProjectDescription">
+                  This project aims to detect PCOS using ultrasonic images of the ovaries. 
+                  The method produces a segmentation mask highlighting the cysts and uses machine learning models to classify these masks as infected or healthy.
+                  The project introduces a novel method for segmentation of cysts in the ovaries termed as "Salt segmentation".
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/Radhika-Amar-Desai/Automatic_PCOS_Detection_Using_Ultrasound_images.git" target="_blank" class="github-redirect"
+                    aria-label="Visit Pexelicons on GitHub">
+                    <img src="src/svg/github.svg" alt="github redirect button" />
+                  </a>
+                  <a href="https://ieeexplore.ieee.org/document/11348366" target="_blank" class="cta" aria-label="Visit Comickaze live">
+                    <span>Research Paper</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src\png\PCOS.png" alt="PCOS project">
+              </div>
+            </div>
+          </div>
+
           <div data-aos="fade-up" class="project-box-wrapper">
             <div class="project-box project-box2" id="project-box2">
               <div class="info-div">
@@ -370,36 +456,7 @@
             </div>
           </div>
 
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box5" id="project-box5">
-              <div class="info-div">
-                <article class="ProjectHeading">PCOS Detection</article>
-                <p class="ProjectDescription">
-                  This project aims to detect PCOS using ultrasonic images of the ovaries. 
-                  The method produces a segmentation mask highlighting the cysts and uses machine learning models to classify these masks as infected or healthy.
-                  The project introduces a novel method for segmentation of cysts in the ovaries termed as "Salt segmentation".
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/Radhika-Amar-Desai/Automatic_PCOS_Detection_Using_Ultrasound_images.git" target="_blank" class="github-redirect"
-                    aria-label="Visit Pexelicons on GitHub">
-                    <img src="src/svg/github.svg" alt="github redirect button" />
-                  </a>
-                  <a href="https://docs.google.com/document/d/1Ktj4RPHEFC0uDy_obg5LpBPKFnNUsRYp10MSsLH-Zaw/edit?usp=sharing" target="_blank" class="cta" aria-label="Visit Comickaze live">
-                    <span>Research Paper</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src\png\PCOS.png" alt="PCOS project">
-              </div>
-            </div>
-          </div>
-
-          <div class="project-box-wrapper" data-aos="fade-up">
+          <!-- <div class="project-box-wrapper" data-aos="fade-up">
             <div class="project-box project-box3" id="project-box3">
               <div class="info-div">
                 <article class="ProjectHeading">P-Unet model</article>
@@ -424,7 +481,7 @@
                 <img src="src/png/P-unet.png" alt="netflix clone website preview image" height="480" width="400" />
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- ---------------------- -->
           <div class="project-box-wrapper" data-aos="fade-up">
@@ -461,30 +518,31 @@
           <div class="project-box-wrapper" data-aos="fade-up">
             <div class="project-box project-box4" id="project-box4">
               <div class="info-div">
-                <article class="ProjectHeading">404 Error Page</article>
+                <article class="ProjectHeading">Detection of Fraudulent Transactions In Ethereum</article>
                 <p class="ProjectDescription">
-                  A visually appealing 404 Error webpage made using CSS.
+                  An anomaly detection pipeline for fraudulent financial transactions using Python and deep learning,
+achieving 99.9% accuracy.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://github.com/Radhika-Amar-Desai/404-Error.git" target="_blank" class="github-redirect"
+                  <a href="https://github.com/Radhika-Amar-Desai/Ethereum_Fraud_Transaction_Detection.git" target="_blank" class="github-redirect"
                     aria-label="Visit qr generator on github">
                     <img src="src/svg/github.svg" alt="github redirect button" />
                   </a>
-                  <a href="https://radhika-amar-desai.github.io/404-Error/" target="_blank" class="cta"
+                  <!-- <a href="https://radhika-amar-desai.github.io/404-Error/" target="_blank" class="cta"
                     aria-label="Visit qr generator live">
                     <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
-                  </a>
+                  </a> -->
                 </div>
               </div>
-              <div class = "image-div">
+              <!-- <div class = "image-div">
                 <video width="400" height="480" controls loop autoplay>
                   <source src="src\mp4\404ErrorPage.mp4" type="video/mp4">
                 </video>
-              </div>
+              </div> -->
             </div>
           </div>
 
